@@ -73,7 +73,8 @@ public class Main extends JavaPlugin {
             super.setItem(index, item);
 
             // If the item should have the bouncing
-            // animation,
+            // animation, stop here and don't send
+            // the set slot packet
             if (shouldBounce) {
                 return;
             }
