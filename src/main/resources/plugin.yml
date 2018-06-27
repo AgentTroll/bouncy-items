@@ -1,0 +1,8 @@
+main: com.gmail.woodyc40.bouncyitems.Main
+name: BouncyItems
+version: 1.0
+
+commands:
+  givemeitem:
+    description: True to show the bouncing effect, false to cancel it
+    usage: /givemeitem < true | false >
