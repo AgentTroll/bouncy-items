@@ -54,7 +54,7 @@ public class Main extends JavaPlugin {
         inv.addItem(bukkitItems);
     }
 
-    // Proxy class used to more clearly demonstrate what
+    // Wrapper class used to more clearly demonstrate what
     // is going on behind-the-scenes of CraftInventoryPlayer
     // The setItem(...) method is overridden with the source
     // copied and slightly modified in order to show how
